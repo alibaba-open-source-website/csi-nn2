@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcsi_nn_2=self.webpackChunkcsi_nn_2||[]).push([[8],{6849:a=>{a.exports=JSON.parse('{"label":"Wujian600","permalink":"/blog/tags/wujian-600","allTagsPath":"/blog/tags","count":1}')}}]);

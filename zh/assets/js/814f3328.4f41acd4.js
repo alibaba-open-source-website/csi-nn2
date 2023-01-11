@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcsi_nn_2=self.webpackChunkcsi_nn_2||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"How to Deploy a Neural Network on TH1520","permalink":"/zh/blog/deploy on th1520"}]}')}}]);
