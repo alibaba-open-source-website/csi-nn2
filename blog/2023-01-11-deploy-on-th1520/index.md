@@ -5,13 +5,13 @@ authors: zhangwm
 tags: [TH1520, C910, NPU, Wujian600]
 ---
 
-# Introduction
+## Introduction
 
 T-Head has recently introduced a high-performance SoC prototyping, i.e. TH1520, which is built on the Wujian600 chip development platform. With a quad-core XuanTie C910 CPU withbuilt-in 4-TOPS NPU, TH1520 engenders a new combination of CPU and AI computing. 
 
 In this blog, we will describe the process of how to deploy a neural network model on C910 and on C910 and NPU simultaneously.
 
-# Tools
+## Tools
 
 T-Head offers two open-source deployment tools that enable seamless, highly efficient integration of NN frameworks and underlying hardware:
 
@@ -20,7 +20,7 @@ T-Head offers two open-source deployment tools that enable seamless, highly effi
 
 ![Tool flow](./ali135.png)
 
-## HHB
+### HHB
 
 [HHB](https://www.xrvm.com/tool-details?id=4056748601592913921#Download) is a collection of tools provided by T-Head to deploy neural network models on XuanTie processors. These tools can be incorporated for compilation, profiling, and simulation. 
 
@@ -90,7 +90,7 @@ After the compilation is complete, the c_runtime file is created under the curre
 
 You can view the top 5 execution results on the terminal. 
 
-## SHL
+### SHL
 
 SHL, previously called CSI-NN2,  is a neural network acceleration library.
 
@@ -106,7 +106,7 @@ To balance performance and accuracy, some SoCs may have an NPU to accelerate som
 
 ![graph opt](./ali136.png)
 
-# C910 Performance
+## C910 Performance
 
 XuanTie C910 is a 64-bit high-performance processor based on the 64-bit RISC-V architecture. This processor adopts a state-of-the-art 12-stage and out-of-order multiple issue superscalar pipeline. On TH1520, it can clock up to 2.5GHz. It is also equipped with 128-bit vector operation units to deliver optimized performance. 
 
@@ -118,14 +118,16 @@ We have tested various typical image classification models. The table below pres
 
 As a comparison, [XNNPACK](https://github.com/google/XNNPACK) costs 77ms (multi-threaded) to infer a MobileNet model on Raspberry Pi 4B.
 
-# C910 and NPU
+## C910 and NPU
+
 In order to accelerate the convolution operator in the neural network, TH1520 is equipped with a 4-TOPS NPU. The NPU can also expedite more than 20 other operators in the neural network under int8.
 
 The table below presents the performance of combining C910 and NPU to access typical image classification models:
 
 ![npu perf](./ali139.png)
 
-# Conclusion
+## Conclusion
+
 This article describes in details on how to deploy a neural network model on TH1520, We have also presented optimal performance of TH1520 in basic image classification tasks.
 
 TH1520 has already been incorporated inside Alibaba’s ecosystem, which demonstrates the feasibility of RISC-V-based high-performance devices to deploy neural network models. In addition, the source code of deployment tools, HHB and SHL, has been open-sourced and shared on GitHub.
