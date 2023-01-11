@@ -4,14 +4,8 @@ zhangwm:
   url: https://github.com/zhangwm-pt
   image_url: https://github.com/zhangwm-pt.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+pkuswg:
+  name: Wengan Shao
+  title: Engineer @ T-Head
+  url: https://github.com/pkuswg
+  image_url: https://github.com/pkuswg.png
