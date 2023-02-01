@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcsi_nn_2=self.webpackChunkcsi_nn_2||[]).push([[8632],{3455:s=>{s.exports=JSON.parse('{"label":"matrix extension","permalink":"/zh/blog/tags/matrix-extension","allTagsPath":"/zh/blog/tags","count":1}')}}]);
