@@ -1,7 +1,7 @@
 ---
 slug: C908 accelerates AI
 title: XuanTie C908 Accelerates AI with Software and Hardware Fusion
-authors: pkuswg
+authors: shaowg
 tags: [C908, Hardware]
 ---
 
