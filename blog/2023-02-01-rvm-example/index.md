@@ -19,7 +19,7 @@ After entering container, you can use the hhb --version command to confirm:
 root@c14249f8243c:/# hhb --version
 HHB version: 2.1.x-matrix, build 20230131
 ```
-docker installation guide：
+docker installation guide：[Docker Engine installation overview](https://docs.docker.com/engine/install/)
 
 ## 2 Model deployment
 Take the deployment of [MobileNet](https://github.com/shicai/MobileNet-Caffe) as an example, in /home/rvm_caffe_mv1_int8, there is already a complete Makefile script, execute the  `make`  command to convert the model into the required sample program, which can be executed on RISC-V architecture chips that support matrix extension.
