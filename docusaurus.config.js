@@ -112,6 +112,11 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
+          {
+            href: 'https://zhangwm-pt.github.io/shl/modules.html',
+            label: 'API',
+            position: 'left',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'localeDropdown',
