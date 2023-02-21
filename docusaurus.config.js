@@ -137,7 +137,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: 'https://www.yuque.com/za4k4z/kkzsw9/cs7ms4',
+                to: '/docs/intro',
               },
             ],
           },
